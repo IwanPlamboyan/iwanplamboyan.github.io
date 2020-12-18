@@ -133,6 +133,7 @@ nav a img {width: 6vmax;}
 }
 .content .profile {
     width: 25vmax;
+    height: 28vmax;
     position: relative;
     margin-top: 2rem;
     margin-left: 3rem;
@@ -140,8 +141,8 @@ nav a img {width: 6vmax;}
 .content .bars {
     width: 25vmax;
     height: 28vmax;
-    margin-top: 4rem;
-    margin-left: 4rem;
+    margin-top: 4.2rem;
+    margin-left: 4.2rem;
 }
 
 .content2 {margin: 9.5vw 5.3vw 0 1.2vw;}
