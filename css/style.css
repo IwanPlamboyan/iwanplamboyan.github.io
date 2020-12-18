@@ -136,6 +136,7 @@ nav a img {width: 6vmax;}
 }
 .content .profile {
     width: 25vmax;
+    height: 25vmax;
     position: relative;
     margin-top: 2rem;
     margin-left: 3rem;
