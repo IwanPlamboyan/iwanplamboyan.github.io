@@ -23,10 +23,6 @@ body {font-family: 'Andika New Basic', sans-serif;}
 }
 .dark span {color: white !important;}
 .dark .bodas {color: white;}
-.dark #skill {
-    background-color: rgb(8, 8, 8) !important;
-    transition: 0.3s ease-in-out !important;
-}
 .dark a {color: white;}
 .dark #contact {background-color: rgb(68,68,68); !important;}
 .dark .input {
@@ -70,7 +66,8 @@ nav a img {width: 6vmax;}
         margin-left: -80px;
         padding-bottom: 25px;
     }
-    .content2 {margin: 65px 3em 0 3em !important;}
+    .content2 {margin: 65px 1.5em 0 1.5em !important;}
+    .rectanglee {left: 40vmax !important;}
     .rectangleee {margin-top: -100px;}
 }
 @media only screen and (max-width: 540px) {
@@ -78,6 +75,7 @@ nav a img {width: 6vmax;}
         padding-bottom: 35px !important;
         border: none !important;
     }
+    .rectanglee {left: 20vmax !important;}
     .kanan {padding: 30px 60px 10px !important;}
 }
 .dark-theme-button{
@@ -124,7 +122,6 @@ nav a img {width: 6vmax;}
 .homee {
     padding-left: 7vw;
     margin-top: 60px;
-    margin-bottom: 67px;
 }
 .content {padding-top: 3.7vw;}
 
@@ -136,7 +133,6 @@ nav a img {width: 6vmax;}
 }
 .content .profile {
     width: 25vmax;
-    height: 25vmax;
     position: relative;
     margin-top: 2rem;
     margin-left: 3rem;
@@ -168,8 +164,7 @@ p {font-size: 1.1em;}
     margin-right: 50px;
 }
 #skill{
-    padding-top: 13px;
-    background-color: #eee;
+    padding-top: 80px;
     padding-bottom: 15px;
     position: relative;
     z-index: 99;
@@ -196,7 +191,7 @@ hr {
 
 .rectanglee {
     width: 15vh;
-    left: 57vw;
+    left: 57vmax;
     margin-top: -45px;
 }
 #contact {
