@@ -1,0 +1,249 @@
+html {overflow: hidden auto !important}
+
+body {font-family: 'Andika New Basic', sans-serif;}
+
+.bg-transparent, .muncul {transition: 0.2s ease-in-out;}
+
+.muncul {
+    background-color: rgba(250, 250, 250, 0.975);
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.25);
+}
+.dark {
+    background-color: #000 !important;
+    color: rgb(243, 235, 235) !important;
+    transition: 0.3s ease-in-out !important;
+}
+.dark nav {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    transition: 0.3s ease-in-out !important;
+}
+.dark .tnav {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    transition: 0.3s ease-in-out !important;
+}
+.dark span {color: white !important;}
+.dark .bodas {color: white;}
+.dark #skill {
+    background-color: rgb(8, 8, 8) !important;
+    transition: 0.3s ease-in-out !important;
+}
+.dark a {color: white;}
+.dark #contact {background-color: rgb(68,68,68); !important;}
+.dark .input {
+    box-shadow: 1px 1px 10px black !important;
+    background-color: rgb(240, 229, 229);
+}
+.dark input {
+    border: 1px solid black;
+    background-color: rgb(240, 229, 229) !important;
+}
+.dark textarea {
+    background-color: rgb(240, 229, 229) !important;
+    border: 1px solid black;
+}
+.dark label {color: black !important;}
+
+nav a img {width: 6vmax;}
+
+.tnav {
+    font-size: 2.3ex;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.mar {margin-right: 2rem}
+
+.ani {position: absolute;}
+
+@media only screen and (max-width: 992px) {
+    .mar {margin-right: 0 !important;}
+    .dark-theme-button {margin-left: 0 !important}
+    .tnav{
+        line-height: 38px;
+        padding: 5vmax 5px;
+    }
+    .rectangleee {margin-top: -50px;}
+}
+@media only screen and (max-width: 768px) {
+    .homee {padding-left: 0 !important;}
+    .content {
+        display: flex;
+        justify-content: center;
+        margin-left: -80px;
+        padding-bottom: 25px;
+    }
+    .content2 {margin: 65px 3em 0 3em !important;}
+    .rectangleee {margin-top: -100px;}
+}
+@media only screen and (max-width: 540px) {
+    .input {
+        padding-bottom: 35px !important;
+        border: none !important;
+    }
+    .kanan {padding: 30px 60px 10px !important;}
+}
+.dark-theme-button{
+    margin-left: 15px;
+    width:70px;
+    height: 35px;
+    position:relative;
+    padding:5px 8px;
+    border-radius:50px;
+    display:inline-flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#707070;
+}
+.dark-theme-button input{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1;
+    border-radius:50px;
+    opacity:0;
+    cursor:pointer
+}
+.dark-theme-button i{
+    padding:5px;
+    border-radius:50px;
+    background:#fff;
+    color:#000;
+    -webkit-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear;
+}
+.dark-theme-button i.fa-moon{
+    position:relative;
+    transform:translateX(30px);
+}
+.dark-theme-button i.fa-sun{
+    position:relative;
+    transform:translateX(0)
+}
+.homee {
+    padding-left: 7vw;
+    margin-top: 60px;
+    margin-bottom: 67px;
+}
+.content {padding-top: 3.7vw;}
+
+.content .rectangle {
+    width: 25vmax;
+    height: 28vmax;
+    border: 1.4vw solid rgb(170,170,170);
+    box-sizing: border-box;
+}
+.content .profile {
+    width: 25vmax;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.content .bars {
+    width: 25vmax;
+    height: 28vmax;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+.content2 {margin: 9.5vw 5.3vw 0 1.2vw;}
+
+.elip {
+    width: 115px;
+    margin-top: -65px;
+    margin-left: -65px;
+}
+
+p {font-size: 1.1em;}
+
+.content2 a {
+    color: #151513;
+    padding-right: 20px;
+}
+.elip2 {
+    width: 120px;
+    margin-top: -62px;
+    margin-right: 50px;
+}
+#skill{
+    padding-top: 13px;
+    background-color: #eee;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 99;
+}
+.ringSkill {
+    margin-top: -60px;
+    margin-left: -35px;
+    width: 8vmax;
+}
+hr {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.ringSkill2 {
+    margin-top: -35px;
+    margin-left: 30px;
+}
+.skill img {width: 5vw;}
+
+.skill p {font-size: 0.8em;}
+
+.ani2 {position: absolute;}
+
+.rectanglee {
+    width: 15vh;
+    left: 57vmax;
+    margin-top: -45px;
+}
+#contact {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: rgb(221,221,221);
+}
+.input {
+    position: relative;
+    background-color: white;
+    border: 1px solid rgba(71, 68, 68, 0.884);
+    border-radius: 3px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+input {
+    width: 30vh !important;
+    border: 1px solid rgb(167, 141, 141) !important;
+}
+
+textarea {
+    height: 120px;
+    border: 1px solid rgb(167, 141, 141) !important;
+}
+
+.kanan {padding: 15px 60px 0;}
+
+.sosialMedia a {color: black;}
+
+.bulat {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+.bulat:hover a {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.sosialMedia .ig:hover {background-color: #3f729b;}
+.sosialMedia .wa:hover {background-color: #25d366}
+.sosialMedia .fb:hover {background-color: #3A5896}
+.sosialMedia .gb:hover {background-color: #3A5896}
+
+.gb {z-index: 999;}
+
+.rectangleee {width: 130px;}
+
+footer {color: gray;}
