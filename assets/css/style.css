@@ -210,8 +210,8 @@ img {
         left: 0;
         width: 100%;
         background-color: var(--body-color);
-        padding: 2rem 1.5rem 0.5rem;
-        box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+        padding: 2rem 1.5rem 1rem;
+        box-shadow: 0 -1px 5px rgba(0, 0, 0, .15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
     }
@@ -219,7 +219,6 @@ img {
 
 .nav_list {
     grid-template-columns: repeat(4, 1fr);
-    /* gap: 2rem; */
 }
 
 .nav_link {
@@ -712,7 +711,7 @@ img {
 
 /* Show Scroll */
 .show-scroll {
-    bottom: 5.7rem;
+    bottom: 1rem;
 }
 
 /* Scroll Bar */
@@ -737,10 +736,6 @@ img {
     .container, .home_container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
-    }
-
-    .nav_menu {
-        padding: 2rem .25rem 4rem;
     }
 
     .nav_list {

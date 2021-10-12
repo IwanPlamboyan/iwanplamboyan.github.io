@@ -7,15 +7,23 @@ const navMenu = document.getElementById('nav-menu'),
 // Menu Show
 // Validate if constant exists
 if(navToggle) {
-    navToggle.addEventListener('click', function() {
-        navMenu.classList.toggle('show-menu');
-        if(navMenu.classList.contains('show-menu')) {
-          toggleIcon.classList.replace('fa-th-large', 'fa-times');
-        }else {
-          toggleIcon.classList.replace('fa-times', 'fa-th-large');
-        }
-    });
+  navToggle.addEventListener('click', function() {
+    navMenu.classList.toggle('show-menu');
+    if(navMenu.classList.contains('show-menu')) {
+      toggleIcon.classList.replace('fa-th-large', 'fa-times');
+    }else {
+      toggleIcon.classList.replace('fa-times', 'fa-th-large');
+    }
+  });
 }
+    
+    // click nav
+const navItem = document.querySelectorAll('.nav_link');
+  navItem.forEach((item) => {
+    item.addEventListener('click', function() {  
+      toggleIcon.classList.replace('fa-times', 'fa-th-large');
+  });
+});
 
 // Menu Hidden
 // Validate if constant exist
