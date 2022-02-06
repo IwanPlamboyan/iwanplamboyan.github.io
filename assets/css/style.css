@@ -195,7 +195,7 @@ img {
 }
 
 .nav_toggle {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     cursor: pointer;
 }
 
@@ -235,16 +235,16 @@ img {
 }
 
 .nav_icon {
-    font-size: 1.2rem;
+    font-size: 1.45rem;
 }
 
 .nav_close {
     position: absolute;
     right: 1rem;
-    bottom: 3.2rem;
-    font-size: 1.2rem;
+    bottom: 3.8rem;
+    font-size: 1.35rem;
     cursor: pointer;
-    color: var(--first-color);
+    color: red;
 }
 
 .nav_close:hover {
@@ -499,6 +499,14 @@ img {
 
 .skills_name {
     font-size: 1.2rem
+}
+
+.skills_name strong {
+    padding: 0 5px;
+    font-size: 1.35rem;
+    color: #333;
+    border-radius: 3px;
+    background-color: rgb(211, 211, 22);
 }
 
 .skills_close .skills_list {

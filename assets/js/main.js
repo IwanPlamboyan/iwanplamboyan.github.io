@@ -9,28 +9,16 @@ const navMenu = document.getElementById('nav-menu'),
 if(navToggle) {
   navToggle.addEventListener('click', function() {
     navMenu.classList.toggle('show-menu');
-    if(navMenu.classList.contains('show-menu')) {
-      toggleIcon.classList.replace('fa-th-large', 'fa-times');
-    }else {
-      toggleIcon.classList.replace('fa-times', 'fa-th-large');
-    }
+    toggleIcon.classList.remove('fa-th-large');
   });
 }
-    
-    // click nav
-const navItem = document.querySelectorAll('.nav_link');
-  navItem.forEach((item) => {
-    item.addEventListener('click', function() {  
-      toggleIcon.classList.replace('fa-times', 'fa-th-large');
-  });
-});
 
 // Menu Hidden
 // Validate if constant exist
 if(navClose) {
     navClose.addEventListener('click', function() {
         navMenu.classList.remove('show-menu');
-        toggleIcon.classList.replace('fa-times', 'fa-th-large');
+        toggleIcon.classList.add('fa-th-large');
     });
 }
 
@@ -41,6 +29,7 @@ function linkAction(){
     const navMenu = document.getElementById('nav-menu');
     // When we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove('show-menu');
+    toggleIcon.classList.add('fa-th-large');
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
@@ -115,7 +104,7 @@ var swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
 
     autoplay: {
-      delay: 2500,
+      delay: 3300,
       disableOnInteraction: false,
     },
     pagination: {
