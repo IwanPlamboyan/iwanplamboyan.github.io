@@ -1,359 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Iwan Plamboyan</title>
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
     <!-- Swipper css -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!-- my css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- AOS JS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-</head>
-<body>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+  </head>
+  <body>
     <!-- header -->
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#home" class="nav_logo">Iwan Plamboyan</a>
+      <nav class="nav container">
+        <a href="#home" class="nav_logo">Iwan Plamboyan</a>
 
-            <div class="nav_menu" id="nav-menu">
-                <ul class="nav_list grid">
-                    <li class="nav_item">
-                        <a href="#home" class="nav_link active-link">
-                            <i class="fas fa-home nav_icon"></i> Home
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#projects" class="nav_link">
-                            <i class="far fa-image nav_icon"></i> Projects
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#experience" class="nav_link">
-                            <i class="fas fa-file-alt nav_icon"></i> Experience
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#contact" class="nav_link">
-                            <i class="fas fa-paper-plane nav_icon"></i> contactme
-                        </a>
-                    </li>
-                </ul>
-                <i class="fas fa-times nav_close" id="nav-close"></i>
-            </div>
-            <div class="nav_btns">
-                <!-- Theme change button -->
-                <i class="fas fa-moon change-theme" id="theme-button"></i>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link"> <i class="fas fa-home nav_icon"></i> Home </a>
+            </li>
+            <li class="nav_item">
+              <a href="#projects" class="nav_link"> <i class="far fa-image nav_icon"></i> Projects </a>
+            </li>
+            <li class="nav_item">
+              <a href="#experience" class="nav_link"> <i class="fas fa-file-alt nav_icon"></i> Experience </a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link"> <i class="fas fa-paper-plane nav_icon"></i> contactme </a>
+            </li>
+          </ul>
+          <i class="fas fa-times nav_close" id="nav-close"></i>
+        </div>
+        <div class="nav_btns">
+          <!-- Theme change button -->
+          <i class="fas fa-moon change-theme" id="theme-button"></i>
 
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class="fas fa-th-large"></i>
-                </div>
-            </div>
-        </nav>
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="fas fa-th-large"></i>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- main -->
     <main class="main">
-        <!-- Home -->
-        <section class="home section" id="home">
-            <div class="home_container grid">
-                <div class="home_images" data-aos="fade-down-right" data-aos-duration="2000">
-                    <div class="rectangle animation"></div>
-                    <img src="assets/img/boy.jpg" alt="" class="home_img">
-                    <img src="assets/img/bars.png" alt="" class="bar animation">
-                </div>
+      <!-- Home -->
+      <section class="home section" id="home">
+        <div class="home_container grid">
+          <div class="home_images" data-aos="fade-down-right" data-aos-duration="2000">
+            <div class="rectangle animation"></div>
+            <img src="assets/img/boy.jpg" alt="" class="home_img" />
+            <img src="assets/img/bars.png" alt="" class="bar animation" />
+          </div>
 
-                <div class="home_data" data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="2000">
-                    <div class="animation elipse"></div>
-                    <h2 class="home_info-judul">Hello, Nama saya Iwan Plamboyan</h2>
-                    <p class="home_description">Saya mulai suka pemograman sejak pertama duduk di bangku SMK dan mulai menekuninya. Saat ini saya sedang mempelajari mengenai Fullstack Developer, mulai dari belajar Frontend serta Backend dan terus mengasah kemampuan saya sampai menjadi Developer yang Expert.</p>
+          <div class="home_data" data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="2000">
+            <div class="animation elipse"></div>
+            <h2 class="home_info-judul">Hello, Nama saya Iwan Plamboyan</h2>
+            <p class="home_description">
+              Saya mulai suka pemograman sejak pertama duduk di bangku SMK dan mulai menekuninya. Saat ini saya sedang mempelajari mengenai Fullstack Developer, mulai dari belajar Frontend serta Backend dan terus mengasah kemampuan saya
+              sampai menjadi Developer yang Expert.
+            </p>
 
-                    <div class="animation elipse2"></div>
+            <div class="animation elipse2"></div>
 
-                    <div class="socials">
-                        <a href="https://www.instagram.com/iwan_plamboyan" target="_blank"><i class="fab fa-instagram social-icon" data-color="#3f729b "></i></a>
-                        <a href="https://api.whatsapp.com/send?phone=62881023347500" target="_blank"><i class="fab fa-whatsapp social-icon" data-color="#25d366"></i></a>
-                        <a href="https://www.facebook.com/iwan.plamboyan.03" target="_blank"><i class="fab fa-facebook social-icon" data-color="#3b5998"></i></a>
-                        <a href="https://github.com/IwanPlamboyan" target="_blank"><i class="fab fa-github social-icon" data-color="#3A5896"></i></a>
-                        <a href="https://www.linkedin.com/in/iwan-plamboyan-9486b120a/" target="_blank"><i class="fab fa-linkedin social-icon" data-color="#0e76a8"></i></a>
-                    </div>
-
-                    <div class="about_buttons">
-                        <a download="" href="assets/pdf/iwan-cv.pdf" title="" class="button button-flex">
-                            <i class="fas fa-download button_icon"></i>&nbsp;Download CV
-                        </a>
-                    </div>
-                </div>
-                <div class="animation elipse3"></div>
-            </div>
-        </section>
-
-        <!-- Projects -->
-        <section class="projects section" id="projects">
-            <h2 class="section_title" data-aos="fade-up">Projects</h2>
-            <span class="section_subtitle" data-aos="fade-up">Some simple projects</span>
-
-            <div class="projects_container container">
-                <div class="project_link">
-                    <a href="https://baroyafashion.github.io/">
-                        <img src="assets/img/project1.png" class="project_img">
-                    </a>
-                    <a href="https://github.com/baroyafashion/baroyafashion.github.io" class="code_link" target="_blank">
-                        <i class="fab fa-github"></i> View Code
-                    </a>
-                </div>
-                <div class="project_link">
-                    <a href="https://iwanplamboyan.github.io/Company-Profile/">
-                        <img src="assets/img/project2.png" class="project_img">
-                    </a>
-                    <a href="https://github.com/IwanPlamboyan/Company-Profile" class="code_link" target="_blank">
-                        <i class="fab fa-github"></i> View Code
-                    </a>
-                </div>
-                <div class="project_link">
-                    <a href="https://iwanplamboyan.github.io/calculator/">
-                        <img src="assets/img/project3.png" class="project_img">
-                    </a>
-                    <a href="https://github.com/IwanPlamboyan/calculator" class="code_link" target="_blank">
-                        <i class="fab fa-github"></i> View Code
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience -->
-        <section class="skills section" id="experience">
-            <h2 class="section_title" data-aos="fade-up">Experience</h2>
-            <span class="section_subtitle" data-aos="fade-up">Skills & Certificate</span>
-
-            <div class="skills_container container grid">
-                <div>
-                    <!-- skill 1 -->
-                    <div class="skills_content skills_open" data-aos="fade-right">
-                        <div class="skills_header">
-                            <i class="fas fa-code skills_icon"></i>
-
-                            <h1 class="skills_title">Fronted developer</h1>
-
-                            <i class="fas fa-angle-down skills_arrow"></i>
-                        </div>
-
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <i class="fab fa-html5 skill_icon"></i>
-                                <h3 class="skills_name">HTML</h3>
-                            </div>
-                            
-                            <div class="skills_data">
-                                <i class="fab fa-css3-alt skill_icon"></i>
-                                <h3 class="skills_name">CSS</h3>
-                            </div>
-
-                            <div class="skills_data">
-                                <i class="fab fa-js skill_icon"></i>
-                                <h3 class="skills_name">JavaScript</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- skill 2 -->
-                    <div class="skills_content skills_open" data-aos="fade-up">
-                        <div class="skills_header">
-                            <i class="fas fa-server skills_icon"></i>
-
-                            <h1 class="skills_title">Backend developer</h1>
-
-                            <i class="fas fa-angle-down skills_arrow"></i>
-                        </div>
-
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <i class="fab fa-php skill_icon"></i>
-                                <h3 class="skills_name">PHP</h3>
-                            </div>
-                            
-                            <div class="skills_data">
-                                <i class="fab fa-laravel skill_icon"></i>
-                                <h3 class="skills_name"><strong>Basic</strong> Laravel</h3>
-                            </div>
-
-                            <div class="skills_data">
-                                <i class="fab fa-node-js skill_icon"></i>
-                                <h3 class="skills_name">NodeJS</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <!-- skill 3 -->
-                    <div class="skills_content skills_open" data-aos="fade-left">
-                        <div class="skills_header">
-                            <i class="fas fa-database skills_icon"></i>
-
-                            <h1 class="skills_title">Database</h1>
-
-                            <i class="fas fa-angle-down skills_arrow"></i>
-                        </div>
-
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <img src="assets/img/mysql.png" class="mysql">
-                                <h3 class="skills_name">MySQL</h3>
-                            </div>
-
-                            <div class="skills_data">
-                                <i class="fab fa-envira skill_icon"></i>
-                                <h3 class="skills_name"><strong>Basic</strong> MongoDB</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>    
+            <div class="socials">
+              <a href="https://www.instagram.com/iwan_plamboyan" target="_blank"><i class="fab fa-instagram social-icon" data-color="#3f729b "></i></a>
+              <a href="https://api.whatsapp.com/send?phone=62881023347500" target="_blank"><i class="fab fa-whatsapp social-icon" data-color="#25d366"></i></a>
+              <a href="https://www.facebook.com/iwan.plamboyan.03" target="_blank"><i class="fab fa-facebook social-icon" data-color="#3b5998"></i></a>
+              <a href="https://github.com/IwanPlamboyan" target="_blank"><i class="fab fa-github social-icon" data-color="#3A5896"></i></a>
+              <a href="https://www.linkedin.com/in/iwan-plamboyan-9486b120a/" target="_blank"><i class="fab fa-linkedin social-icon" data-color="#0e76a8"></i></a>
             </div>
 
-            <div class="sertifikat_container container">
-                <div class="sertifikat_box" data-aos="zoom-in-up" data-aos-duration="1000">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                          <div class="sertifikat_content swiper-slide">
-                              <a href="https://www.freecodecamp.org/certification/fcc10bbe462-2eeb-41ff-a5d0-d69f47a9baa5/responsive-web-design">
-                                  <img src="assets/img/sertifikat1.png" alt="">
-                              </a>
-                          </div>
-                          <div class="sertifikat_content swiper-slide">
-                              <a href="https://www.freecodecamp.org/certification/fcc10bbe462-2eeb-41ff-a5d0-d69f47a9baa5/javascript-algorithms-and-data-structures">
-                                  <img src="assets/img/sertifikat2.png" alt="">
-                              </a>
-                          </div>
-                          <div class="sertifikat_content swiper-slide">
-                              <a download="" href="assets/pdf/sertifikat3.pdf">
-                                  <img src="assets/img/sertifikat3.png" alt="">
-                              </a>
-                          </div>
-                          <div class="sertifikat_content swiper-slide">
-                                <a download="" href="assets/pdf/sertifikat4.pdf">
-                                    <img src="assets/img/sertifikat4.png" alt="">
-                                </a>
-                          </div>
-                          <div class="sertifikat_content swiper-slide">
-                                <a download="" href="assets/pdf/dicoding_backend_pemula.pdf">
-                                    <img src="assets/img/dicoding_backend_pemula.png" alt="">
-                                </a>
-                          </div>
-                          <div class="sertifikat_content swiper-slide">
-                                <a download="" href="assets/pdf/dicoding_frontend_pemula.pdf">
-                                    <img src="assets/img/dicoding_frontend_pemula.png" alt="">
-                                </a>
-                          </div>
-                        </div>
-        
-                        <!-- Add arrow -->
-                        <div class="swiper-button-next">
-                            <i class="fas fa-angle-right swiper-sertifikat-icon"></i>
-                        </div>
-                        <div class="swiper-button-prev">
-                            <i class="fas fa-angle-left swiper-sertifikat-icon"></i>
-                        </div>
-        
-                        <!-- Add pagination -->
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
+            <div class="about_buttons">
+              <a download="" href="assets/pdf/cv.pdf" title="" class="button button-flex"> <i class="fas fa-download button_icon"></i>&nbsp;Download CV </a>
             </div>
-        </section>
+          </div>
+          <div class="animation elipse3"></div>
+        </div>
+      </section>
 
-        <!-- Contact Me -->
-        <section class="contact section" id="contact">
-            <h2 class="section_title" data-aos="fade-up">Contact Me</h2>
-            <span class="section_subtitle" data-aos="fade-up">Let's collaborate together</span>
+      <!-- Projects -->
+      <section class="projects section" id="projects">
+        <h2 class="section_title" data-aos="fade-up">Projects</h2>
+        <span class="section_subtitle" data-aos="fade-up">Some simple projects</span>
 
-            <div class="contact_container container grid">
-                <div>
-                    <div class="contact_information">
-                        <i class="uil uil-phone contact_icon"></i>
+        <div class="projects_container">
+          <a href="#" class="project_link">
+            <img src="assets/img/portfolio_tailwind.png" alt="portfolio_tailwind" />
+            <div class="project_description">
+              <h3>Portfolio TailwindCSS</h3>
+              <p>Sebuah Portfolio dengan mengunakan TailwindCSS untuk memperdalam pemahaman saya tentang TailwindCSS.</p>
+            </div>
+          </a>
+          <a href="#" class="project_link">
+            <img src="assets/img/wan_movies.png" alt="website_film" />
+            <div class="project_description">
+              <h3>Website Film</h3>
+              <p>Sebuah Web yang menampilkan data-data film dari API IMDB dengan menggunakan React JS Sederhana.</p>
+            </div>
+          </a>
+          <a href="#" class="project_link">
+            <img src="assets/img/baroya.png" alt="website Jahit" />
+            <div class="project_description">
+              <h3>Website Baju Jahit</h3>
+              <p>Sebuah Website Sederhana tentang jasa penerimaan jahit waktu memperdalam pengetahuan saya mengenai HTML, CSS dan JavaScript.</p>
+            </div>
+          </a>
+          <a href="#" class="project_link">
+            <img src="assets/img/kalkulator.png" alt="portfolio_tailwind" />
+            <div class="project_description">
+              <h3>Portfolio TailwindCSS</h3>
+              <p>Sebuah Web Aplikasi kalkulator sederhana waktu memperdalam pengetahuan saya mengenai HTML, CSS dan JavaScript</p>
+            </div>
+          </a>
+        </div>
+      </section>
 
-                        <div>
-                            <h3 class="contact_title">Call Me</h3>
-                            <div class="socials socials2">
-                                <a href="https://www.instagram.com/iwan_plamboyan" target="_blank"><i class="fab fa-instagram social-icon" data-color="#3f729b "></i></a>
-                                <a href="https://api.whatsapp.com/send?phone=62881023347500" target="_blank"><i class="fab fa-whatsapp social-icon" data-color="#25d366"></i></a>
-                                <a href="https://www.facebook.com/iwan.plamboyan.03" target="_blank"><i class="fab fa-facebook social-icon" data-color="#3b5998"></i></a>
-                                <a href="https://github.com/IwanPlamboyan" target="_blank"><i class="fab fa-github social-icon" data-color="#3A5896"></i></a>
-                                <a href="https://www.linkedin.com/in/iwan-plamboyan-9486b120a/" target="_blank"><i class="fab fa-linkedin social-icon" data-color="#0e76a8"></i></a>
-                            </div>
-                        </div>
-                    </div>
+      <!-- Experience -->
+      <section class="skills section" id="experience">
+        <h2 class="section_title" data-aos="fade-up">Experience</h2>
+        <span class="section_subtitle" data-aos="fade-up">Skills & Certificate</span>
 
-                    <div class="contact_information">
-                        <i class="uil uil-envelope contact_icon"></i>
+        <div class="skills_container container grid">
+          <div>
+            <!-- skill 1 -->
+            <div class="skills_content skills_open" data-aos="fade-right">
+              <div class="skills_header">
+                <i class="fas fa-code skills_icon"></i>
 
-                        <div>
-                            <h3 class="contact_title">Email</h3>
-                            <span class="contact_subtitle">iwanplam03@gmail.com</span>
-                        </div>    
-                    </div>
+                <h1 class="skills_title">Fronted developer</h1>
 
-                    <div class="contact_information">
-                        <i class="uil uil-map-marker contact_icon"></i>
+                <i class="fas fa-angle-down skills_arrow"></i>
+              </div>
 
-                        <div>
-                            <h3 class="contact_title">Location</h3>
-                            <span class="contact_subtitle">Indonesia - Ujung Berung, Bandung</span>
-                        </div>
-                    </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <i class="fab fa-html5 skill_icon"></i>
+                  <h3 class="skills_name">HTML</h3>
                 </div>
 
-                <form class="contact_from grid" name="my-portfolio">
-                    <div class="alert d-none">
-                        <p><b>Terima Kasih!</b> Pesan anda sudah kami terima.</p>
-                        <i class="fas fa-times alert_close"></i>
-                    </div>
-                    <div class="contact_inputs grid">
-                        <div class="contact_content">
-                            <label for="nama" class="contact_label">Name</label>
-                            <input type="text" class="contact_input" name="nama" id="nama">
-                        </div>
-                        <div class="contact_content">
-                            <label for="email" class="contact_label">Email</label>
-                            <input type="email" class="contact_input" name="email" id="email">
-                        </div>
-                    </div>
-                    <div class="contact_content">
-                        <label for="pesan" class="contact_label">Message</label>
-                        <textarea name="pesan" id="pesan" cols="0" rows="7" class="contact_input"></textarea>
-                    </div>
+                <div class="skills_data">
+                  <i class="fab fa-css3-alt skill_icon"></i>
+                  <h3 class="skills_name">CSS</h3>
+                </div>
 
-                    <div>
-                        <button type="submit" class="button button-flex btn-kirim" data-aos="fade-up" data-aos-duration="900">
-                            <i class="far fa-paper-plane"></i>&nbsp;Kirim
-                        </button>
-                        <button class="button button-flex btn-loading d-none">
-                            <i class="fas fa-spinner"></i>&nbsp;Loading
-                        </button>
-                    </div>
-                </form>
+                <div class="skills_data">
+                  <i class="fab fa-js skill_icon"></i>
+                  <h3 class="skills_name">JavaScript</h3>
+                </div>
+
+                <div class="skills_data">
+                  <svg role="img" class="skill_icon" width="2.5rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Tailwind CSS</title>
+                    <path
+                      d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
+                    />
+                  </svg>
+                  <h3 class="skills_name">TailwindCSS</h3>
+                </div>
+
+                <div class="skills_data">
+                  <i class="fab fa-react skill_icon"></i>
+                  <h3 class="skills_name">ReactJS</h3>
+                </div>
+              </div>
             </div>
-        </section>
+
+            <!-- skill 2 -->
+            <div class="skills_content skills_open" data-aos="fade-up">
+              <div class="skills_header">
+                <i class="fas fa-server skills_icon"></i>
+
+                <h1 class="skills_title">Backend developer</h1>
+
+                <i class="fas fa-angle-down skills_arrow"></i>
+              </div>
+
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <i class="fab fa-php skill_icon"></i>
+                  <h3 class="skills_name">PHP</h3>
+                </div>
+
+                <div class="skills_data">
+                  <i class="fab fa-laravel skill_icon"></i>
+                  <h3 class="skills_name"><strong>Basic</strong> Laravel</h3>
+                </div>
+
+                <div class="skills_data">
+                  <i class="fab fa-node-js skill_icon"></i>
+                  <h3 class="skills_name">NodeJS</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!-- skill 3 -->
+            <div class="skills_content skills_open" data-aos="fade-left">
+              <div class="skills_header">
+                <i class="fas fa-database skills_icon"></i>
+
+                <h1 class="skills_title">Database</h1>
+
+                <i class="fas fa-angle-down skills_arrow"></i>
+              </div>
+
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <svg role="img" class="skill_icon" width="2.5rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>MySQL</title>
+                    <path
+                      d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"
+                    />
+                  </svg>
+                  <h3 class="skills_name">MySQL</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sertifikat_container container">
+          <div class="sertifikat_box" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="sertifikat_content swiper-slide">
+                  <a href="https://www.freecodecamp.org/certification/fcc10bbe462-2eeb-41ff-a5d0-d69f47a9baa5/responsive-web-design">
+                    <img src="assets/img/sertifikat1.png" alt="" />
+                  </a>
+                </div>
+                <div class="sertifikat_content swiper-slide">
+                  <a href="https://www.freecodecamp.org/certification/fcc10bbe462-2eeb-41ff-a5d0-d69f47a9baa5/javascript-algorithms-and-data-structures">
+                    <img src="assets/img/sertifikat2.png" alt="" />
+                  </a>
+                </div>
+                <div class="sertifikat_content swiper-slide">
+                  <a download="" href="assets/pdf/sertifikat3.pdf">
+                    <img src="assets/img/sertifikat3.png" alt="" />
+                  </a>
+                </div>
+                <div class="sertifikat_content swiper-slide">
+                  <a download="" href="assets/pdf/sertifikat4.pdf">
+                    <img src="assets/img/sertifikat4.png" alt="" />
+                  </a>
+                </div>
+                <div class="sertifikat_content swiper-slide">
+                  <a download="" href="assets/pdf/dicoding_backend_pemula.pdf">
+                    <img src="assets/img/dicoding_backend_pemula.png" alt="" />
+                  </a>
+                </div>
+                <div class="sertifikat_content swiper-slide">
+                  <a download="" href="assets/pdf/dicoding_frontend_pemula.pdf">
+                    <img src="assets/img/dicoding_frontend_pemula.png" alt="" />
+                  </a>
+                </div>
+                <div class="sertifikat_content swiper-slide">
+                  <a download="" href="assets/pdf/dicoding_reactjs.pdf">
+                    <img src="assets/img/dicoding_reactjs.png" alt="" />
+                  </a>
+                </div>
+              </div>
+
+              <!-- Add arrow -->
+              <div class="swiper-button-next">
+                <i class="fas fa-angle-right swiper-sertifikat-icon"></i>
+              </div>
+              <div class="swiper-button-prev">
+                <i class="fas fa-angle-left swiper-sertifikat-icon"></i>
+              </div>
+
+              <!-- Add pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Me -->
+      <section class="contact section" id="contact">
+        <h2 class="section_title" data-aos="fade-up">Contact Me</h2>
+        <span class="section_subtitle" data-aos="fade-up">Let's collaborate together</span>
+
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_information">
+              <i class="uil uil-phone contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Call Me</h3>
+                <div class="socials socials2">
+                  <a href="https://www.instagram.com/iwan_plamboyan" target="_blank"><i class="fab fa-instagram social-icon" data-color="#3f729b "></i></a>
+                  <a href="https://api.whatsapp.com/send?phone=62881023347500" target="_blank"><i class="fab fa-whatsapp social-icon" data-color="#25d366"></i></a>
+                  <a href="https://www.facebook.com/iwan.plamboyan.03" target="_blank"><i class="fab fa-facebook social-icon" data-color="#3b5998"></i></a>
+                  <a href="https://github.com/IwanPlamboyan" target="_blank"><i class="fab fa-github social-icon" data-color="#3A5896"></i></a>
+                  <a href="https://www.linkedin.com/in/iwan-plamboyan-9486b120a/" target="_blank"><i class="fab fa-linkedin social-icon" data-color="#0e76a8"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact_information">
+              <i class="uil uil-envelope contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Email</h3>
+                <span class="contact_subtitle">iwanplam03@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact_information">
+              <i class="uil uil-map-marker contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Location</h3>
+                <span class="contact_subtitle">Bandung, Jawa Barat - Indonesia</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact_from grid" name="my-portfolio">
+            <div class="alert d-none">
+              <p><b>Terima Kasih!</b> Pesan anda sudah kami terima.</p>
+              <i class="fas fa-times alert_close"></i>
+            </div>
+            <div class="contact_inputs grid">
+              <div class="contact_content">
+                <label for="nama" class="contact_label">Name</label>
+                <input type="text" class="contact_input" name="nama" id="nama" />
+              </div>
+              <div class="contact_content">
+                <label for="email" class="contact_label">Email</label>
+                <input type="email" class="contact_input" name="email" id="email" />
+              </div>
+            </div>
+            <div class="contact_content">
+              <label for="pesan" class="contact_label">Message</label>
+              <textarea name="pesan" id="pesan" cols="0" rows="7" class="contact_input"></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="button button-flex btn-kirim" data-aos="fade-up" data-aos-duration="900"><i class="far fa-paper-plane"></i>&nbsp;Kirim</button>
+              <button class="button button-flex btn-loading d-none"><i class="fas fa-spinner"></i>&nbsp;Loading</button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- footer -->
     <footer class="footer">
-        <div class="footer_bg">
-            <p class="footer_copy">&#169; Copyright 2021 | built by Iwan Plamboyan</p>
-        </div>
+      <div class="footer_bg">
+        <p class="footer_copy">&#169; Copyright 2021 | built by Iwan Plamboyan</p>
+      </div>
     </footer>
 
     <!-- Scroll Top -->
     <a href="#home" class="scrollup" id="scroll-up">
-        <i class="fas fa-arrow-up scrollup_icon"></i>
+      <i class="fas fa-arrow-up scrollup_icon"></i>
     </a>
 
     <!-- Swiper js -->
@@ -364,5 +376,5 @@
 
     <!-- MyScript -->
     <script src="assets/js/main.js"></script>
-</body>
+  </body>
 </html>
