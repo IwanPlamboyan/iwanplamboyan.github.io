@@ -202,27 +202,6 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-icon', getCurrentIcon());
 });
 
-const projectLinks = document.querySelectorAll('.project_link');
-projectLinks.forEach((projectLink, i) => {
-  projectLink.dataset.aos = 'zoom-in';
-  projectLink.dataset.aosDelay = i * 250;
-});
-
-const contactInformations = document.querySelectorAll('.contact_information');
-contactInformations.forEach((contactInformation) => {
-  contactInformation.dataset.aos = 'fade-right';
-});
-
-const contactContents = document.querySelectorAll('.contact_content');
-contactContents.forEach((contactContent) => {
-  contactContent.dataset.aos = 'fade-left';
-});
-
-AOS.init({
-  duration: 1500,
-  once: true,
-});
-
 // My Google Script/App Script
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwjkoudFYxNBpAQLNMrGJmarAHLscflJMnTp-r7yfQKuMXxK3IR7KYBpJCQNfzLWiGweQ/exec';

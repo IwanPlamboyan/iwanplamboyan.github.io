@@ -799,6 +799,10 @@ section.projects {
     margin-left: -245px;
   }
 
+  section.projects {
+    margin-top: 50px;
+  }
+
   .sertifikat_box {
     margin: 0;
   }
@@ -913,6 +917,10 @@ section.projects {
 
   .home_container {
     padding-left: 0;
+  }
+
+  section.projects {
+    margin-top: 95px;
   }
 
   .contact_form {

@@ -13,9 +13,6 @@
 
     <!-- my css -->
     <link rel="stylesheet" href="assets/css/style.css" />
-
-    <!-- AOS JS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- header -->
@@ -29,7 +26,7 @@
               <a href="#home" class="nav_link active-link"> <i class="fas fa-home nav_icon"></i> Home </a>
             </li>
             <li class="nav_item">
-              <a href="#projects" class="nav_link"> <i class="far fa-image nav_icon"></i> Projects </a>
+              <a href="#projects" class="nav_link"> <i class="far fa-image nav_icon"></i> Portfolio </a>
             </li>
             <li class="nav_item">
               <a href="#experience" class="nav_link"> <i class="fas fa-file-alt nav_icon"></i> Experience </a>
@@ -56,13 +53,13 @@
       <!-- Home -->
       <section class="home section" id="home">
         <div class="home_container grid">
-          <div class="home_images" data-aos="fade-down-right" data-aos-duration="2000">
+          <div class="home_images">
             <div class="rectangle animation"></div>
             <img src="assets/img/boy.jpg" alt="" class="home_img" />
             <img src="assets/img/bars.png" alt="" class="bar animation" />
           </div>
 
-          <div class="home_data" data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="2000">
+          <div class="home_data">
             <div class="animation elipse"></div>
             <h2 class="home_info-judul">Hello, Nama saya Iwan Plamboyan</h2>
             <p class="home_description">
@@ -90,32 +87,39 @@
 
       <!-- Projects -->
       <section class="projects section" id="projects">
-        <h2 class="section_title" data-aos="fade-up">Projects</h2>
-        <span class="section_subtitle" data-aos="fade-up">Some simple projects</span>
+        <h2 class="section_title">Portfolio</h2>
+        <span class="section_subtitle">Some simple projects</span>
 
         <div class="projects_container">
-          <a href="https://iwanplamboyan.github.io/portfolio-tailwindcss/" class="project_link">
+          <a href="https://iwanplamboyan.github.io/wan-ecommerce/" class="project_link" target="_blank">
+            <img src="assets/img/ecommerce.png" alt="Project_ecommerce" />
+            <div class="project_description">
+              <h3>Web E-Commerce Sederhana</h3>
+              <p>Sebuah E-commerce sederhana dengan mengunakan ReactJs, TailwindCSS dan Material UI untuk melatih pemahaman saya.</p>
+            </div>
+          </a>
+          <a href="https://iwanplamboyan.github.io/portfolio-tailwindcss/" class="project_link" target="_blank">
             <img src="assets/img/portfolio_tailwind.png" alt="portfolio_tailwind" />
             <div class="project_description">
               <h3>Portfolio TailwindCSS</h3>
               <p>Sebuah Portfolio dengan mengunakan TailwindCSS untuk memperdalam pemahaman saya tentang TailwindCSS.</p>
             </div>
           </a>
-          <a href="https://iwanplamboyan.github.io/wan-movies/" class="project_link">
+          <a href="https://iwanplamboyan.github.io/wan-movies/" class="project_link" target="_blank">
             <img src="assets/img/wan_movies.png" alt="website_film" />
             <div class="project_description">
               <h3>Website Film</h3>
               <p>Sebuah Web yang menampilkan data-data film dari API IMDB dengan menggunakan React JS Sederhana.</p>
             </div>
           </a>
-          <a href="https://baroyafashion.github.io/" class="project_link">
+          <a href="https://baroyafashion.github.io/" class="project_link" target="_blank">
             <img src="assets/img/baroya.png" alt="website Jahit" />
             <div class="project_description">
               <h3>Website Baju Jahit</h3>
               <p>Sebuah Website Sederhana tentang jasa penerimaan jahit waktu memperdalam pengetahuan saya mengenai HTML, CSS dan JavaScript.</p>
             </div>
           </a>
-          <a href="https://iwanplamboyan.github.io/calculator/" class="project_link">
+          <a href="https://iwanplamboyan.github.io/calculator/" class="project_link" target="_blank">
             <img src="assets/img/kalkulator.png" alt="portfolio_tailwind" />
             <div class="project_description">
               <h3>Portfolio TailwindCSS</h3>
@@ -127,13 +131,13 @@
 
       <!-- Experience -->
       <section class="skills section" id="experience">
-        <h2 class="section_title" data-aos="fade-up">Experience</h2>
-        <span class="section_subtitle" data-aos="fade-up">Skills & Certificate</span>
+        <h2 class="section_title">Experience</h2>
+        <span class="section_subtitle">Skills & Certificate</span>
 
         <div class="skills_container container grid">
           <div>
             <!-- skill 1 -->
-            <div class="skills_content skills_open" data-aos="fade-right">
+            <div class="skills_content skills_open">
               <div class="skills_header">
                 <i class="fas fa-code skills_icon"></i>
 
@@ -176,7 +180,7 @@
             </div>
 
             <!-- skill 2 -->
-            <div class="skills_content skills_open" data-aos="fade-up">
+            <div class="skills_content skills_open">
               <div class="skills_header">
                 <i class="fas fa-server skills_icon"></i>
 
@@ -206,7 +210,7 @@
 
           <div>
             <!-- skill 3 -->
-            <div class="skills_content skills_open" data-aos="fade-left">
+            <div class="skills_content skills_open">
               <div class="skills_header">
                 <i class="fas fa-database skills_icon"></i>
 
@@ -231,7 +235,7 @@
         </div>
 
         <div class="sertifikat_container container">
-          <div class="sertifikat_box" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="sertifikat_box">
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <div class="sertifikat_content swiper-slide">
@@ -288,8 +292,8 @@
 
       <!-- Contact Me -->
       <section class="contact section" id="contact">
-        <h2 class="section_title" data-aos="fade-up">Contact Me</h2>
-        <span class="section_subtitle" data-aos="fade-up">Let's collaborate together</span>
+        <h2 class="section_title">Contact Me</h2>
+        <span class="section_subtitle">Let's collaborate together</span>
 
         <div class="contact_container container grid">
           <div>
@@ -348,7 +352,7 @@
             </div>
 
             <div>
-              <button type="submit" class="button button-flex btn-kirim" data-aos="fade-up" data-aos-duration="900"><i class="far fa-paper-plane"></i>&nbsp;Kirim</button>
+              <button type="submit" class="button button-flex btn-kirim"><i class="far fa-paper-plane"></i>&nbsp;Kirim</button>
               <button class="button button-flex btn-loading d-none"><i class="fas fa-spinner"></i>&nbsp;Loading</button>
             </div>
           </form>
@@ -370,9 +374,6 @@
 
     <!-- Swiper js -->
     <script src="assets/js/swiper-bundle.min.js"></script>
-
-    <!-- AOS JS -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <!-- MyScript -->
     <script src="assets/js/main.js"></script>
