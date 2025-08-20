@@ -6,10 +6,16 @@
     <title>Portfolio | Iwan Plamboyan</title>
 
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
 
     <!-- Swipper css -->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- my css -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -23,16 +29,24 @@
         <div class="nav_menu" id="nav-menu">
           <ul class="nav_list grid">
             <li class="nav_item">
-              <a href="#home" class="nav_link active-link"> <i class="fas fa-home nav_icon"></i> Home </a>
+              <a href="#home" class="nav_link active-link">
+                <i class="fas fa-home nav_icon"></i> Home
+              </a>
             </li>
             <li class="nav_item">
-              <a href="#projects" class="nav_link"> <i class="far fa-image nav_icon"></i> Portfolio </a>
+              <a href="#projects" class="nav_link">
+                <i class="far fa-image nav_icon"></i> Portfolio
+              </a>
             </li>
             <li class="nav_item">
-              <a href="#experience" class="nav_link"> <i class="fas fa-file-alt nav_icon"></i> Experience </a>
+              <a href="#experience" class="nav_link">
+                <i class="fas fa-file-alt nav_icon"></i> Experience
+              </a>
             </li>
             <li class="nav_item">
-              <a href="#contact" class="nav_link"> <i class="fas fa-paper-plane nav_icon"></i> contactme </a>
+              <a href="#contact" class="nav_link">
+                <i class="fas fa-paper-plane nav_icon"></i> contactme
+              </a>
             </li>
           </ul>
           <i class="fas fa-times nav_close" id="nav-close"></i>
@@ -53,32 +67,54 @@
       <!-- Home -->
       <section class="home section" id="home">
         <div class="home_container grid">
-          <div class="home_images">
+          <div
+            class="home_images"
+            data-aos="fade-right"
+            data-aos-duration="1100"
+          >
             <div class="rectangle animation"></div>
-            <img src="assets/img/boy.jpg" alt="" class="home_img" />
+            <img src="assets/img/myfoto.png" alt="" class="home_img" />
             <img src="assets/img/bars.png" alt="" class="bar animation" />
           </div>
 
-          <div class="home_data">
+          <div class="home_data" data-aos="fade-left" data-aos-duration="1100">
             <div class="animation elipse"></div>
             <h2 class="home_info-judul">Hello, Nama saya Iwan Plamboyan</h2>
             <p class="home_description">
-              Saya mulai suka pemograman sejak pertama duduk di bangku SMK dan mulai menekuninya. Saat ini saya sedang mempelajari mengenai Fullstack Developer, mulai dari belajar Frontend serta Backend dan terus mengasah kemampuan saya
-              sampai menjadi Developer yang Expert.
+              Saya mulai suka pemograman sejak pertama duduk di bangku SMK dan
+              mulai menekuninya. Saat ini saya sedang mempelajari mengenai
+              Fullstack Developer, mulai dari belajar Frontend serta Backend dan
+              terus mengasah kemampuan saya sampai menjadi Developer yang
+              Expert.
             </p>
 
             <div class="animation elipse2"></div>
 
             <div class="socials">
-              <a href="https://www.instagram.com/iwan_plamboyan" target="_blank"><i class="fab fa-instagram social-icon" data-color="#3f729b "></i></a>
-              <a href="https://api.whatsapp.com/send?phone=62881023347500" target="_blank"><i class="fab fa-whatsapp social-icon" data-color="#25d366"></i></a>
-              <a href="https://www.facebook.com/iwan.plamboyan.03" target="_blank"><i class="fab fa-facebook social-icon" data-color="#3b5998"></i></a>
-              <a href="https://github.com/IwanPlamboyan" target="_blank"><i class="fab fa-github social-icon" data-color="#3A5896"></i></a>
-              <a href="https://www.linkedin.com/in/iwan-plamboyan-9486b120a/" target="_blank"><i class="fab fa-linkedin social-icon" data-color="#0e76a8"></i></a>
-            </div>
-
-            <div class="about_buttons">
-              <a download="" href="assets/pdf/cv.pdf" title="" class="button button-flex"> <i class="fas fa-download button_icon"></i>&nbsp;Download CV </a>
+              <a href="https://www.instagram.com/iwan_plamboyan" target="_blank"
+                ><i
+                  class="fab fa-instagram social-icon"
+                  data-color="#3f729b "
+                ></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send?phone=6287812846752"
+                target="_blank"
+                ><i class="fab fa-whatsapp social-icon" data-color="#25d366"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/iwan.plamboyan.03"
+                target="_blank"
+                ><i class="fab fa-facebook social-icon" data-color="#3b5998"></i
+              ></a>
+              <a href="https://github.com/IwanPlamboyan" target="_blank"
+                ><i class="fab fa-github social-icon" data-color="#3A5896"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/iwan-plamboyan-9486b120a/"
+                target="_blank"
+                ><i class="fab fa-linkedin social-icon" data-color="#0e76a8"></i
+              ></a>
             </div>
           </div>
           <div class="animation elipse3"></div>
@@ -87,43 +123,149 @@
 
       <!-- Projects -->
       <section class="projects section" id="projects">
-        <h2 class="section_title">Portfolio</h2>
-        <span class="section_subtitle">Some simple projects</span>
+        <h2
+          class="section_title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="120"
+        >
+          Portfolio
+        </h2>
+        <span
+          class="section_subtitle"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="120"
+          data-aos-delay="100"
+          >Some simple projects</span
+        >
 
         <div class="projects_container">
-          <a href="https://iwanplamboyan.github.io/wan-ecommerce/" class="project_link" target="_blank">
-            <img src="assets/img/ecommerce.png" alt="Project_ecommerce" />
+          <a
+            href="https://uleman-nikahan-omega.vercel.app/sample1"
+            class="project_link"
+            target="_blank"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="150"
+            data-aos-offset="250"
+          >
+            <div class="project_image">
+              <img
+                src="assets/img/portfolio_wedding_app.png"
+                alt="wedding-app"
+              />
+            </div>
+            <div class="project_description">
+              <h3>Wedding Invitation</h3>
+              <p>
+                Sebuah Surat Undangan Pernikahan online mengunakan ReactJs +
+                animasi yang membantu saya untuk melatih kreatifitas dan slicing
+                design figma ke Code.
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://iwanplamboyan.github.io/wan-ecommerce/"
+            class="project_link"
+            target="_blank"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="150"
+            data-aos-offset="250"
+          >
+            <div class="project_image">
+              <img src="assets/img/ecommerce.png" alt="Project_ecommerce" />
+            </div>
             <div class="project_description">
               <h3>Web E-Commerce Sederhana</h3>
-              <p>Sebuah E-commerce sederhana dengan mengunakan ReactJs, TailwindCSS dan Material UI untuk melatih pemahaman saya.</p>
+              <p>
+                Sebuah E-commerce sederhana dengan mengunakan ReactJs,
+                TailwindCSS dan Material UI untuk melatih pemahaman saya.
+              </p>
             </div>
           </a>
-          <a href="https://iwanplamboyan.github.io/portfolio-tailwindcss/" class="project_link" target="_blank">
-            <img src="assets/img/portfolio_tailwind.png" alt="portfolio_tailwind" />
+          <a
+            href="https://iwanplamboyan.github.io/portfolio-tailwindcss/"
+            class="project_link"
+            target="_blank"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="150"
+            data-aos-offset="250"
+          >
+            <div class="project_image">
+              <img
+                src="assets/img/portfolio_tailwind.png"
+                alt="portfolio_tailwind"
+              />
+            </div>
             <div class="project_description">
               <h3>Portfolio TailwindCSS</h3>
-              <p>Sebuah Portfolio dengan mengunakan TailwindCSS untuk memperdalam pemahaman saya tentang TailwindCSS.</p>
+              <p>
+                Sebuah Portfolio dengan mengunakan TailwindCSS untuk memperdalam
+                pemahaman saya tentang TailwindCSS.
+              </p>
             </div>
           </a>
-          <a href="https://iwanplamboyan.github.io/wan-movies/" class="project_link" target="_blank">
-            <img src="assets/img/wan_movies.png" alt="website_film" />
+          <a
+            href="https://iwanplamboyan.github.io/wan-movies/"
+            class="project_link"
+            target="_blank"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="150"
+            data-aos-offset="250"
+          >
+            <div class="project_image">
+              <img src="assets/img/wan_movies.png" alt="website_film" />
+            </div>
             <div class="project_description">
               <h3>Website Film</h3>
-              <p>Sebuah Web yang menampilkan data-data film dari API IMDB dengan menggunakan React JS Sederhana.</p>
+              <p>
+                Sebuah Web yang menampilkan data-data film dari API IMDB dengan
+                menggunakan React JS Sederhana.
+              </p>
             </div>
           </a>
-          <a href="https://baroyafashion.github.io/" class="project_link" target="_blank">
-            <img src="assets/img/baroya.png" alt="website Jahit" />
+          <a
+            href="https://baroyafashion.github.io/"
+            class="project_link"
+            target="_blank"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="150"
+            data-aos-offset="250"
+          >
+            <div class="project_image">
+              <img src="assets/img/baroya.png" alt="website Jahit" />
+            </div>
             <div class="project_description">
               <h3>Website Baju Jahit</h3>
-              <p>Sebuah Website Sederhana tentang jasa penerimaan jahit waktu memperdalam pengetahuan saya mengenai HTML, CSS dan JavaScript.</p>
+              <p>
+                Sebuah Website Sederhana tentang jasa penerimaan jahit waktu
+                memperdalam pengetahuan saya mengenai HTML, CSS dan JavaScript.
+              </p>
             </div>
           </a>
-          <a href="https://iwanplamboyan.github.io/calculator/" class="project_link" target="_blank">
-            <img src="assets/img/kalkulator.png" alt="portfolio_tailwind" />
+          <a
+            href="https://iwanplamboyan.github.io/calculator/"
+            class="project_link"
+            target="_blank"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="150"
+            data-aos-offset="250"
+          >
+            <div class="project_image">
+              <img src="assets/img/kalkulator.png" alt="portfolio_tailwind" />
+            </div>
             <div class="project_description">
-              <h3>Portfolio TailwindCSS</h3>
-              <p>Sebuah Web Aplikasi kalkulator sederhana waktu memperdalam pengetahuan saya mengenai HTML, CSS dan JavaScript</p>
+              <h3>Web Kalkulator</h3>
+              <p>
+                Sebuah Web Aplikasi kalkulator sederhana waktu memperdalam
+                pengetahuan saya mengenai HTML, CSS dan JavaScript
+              </p>
             </div>
           </a>
         </div>
@@ -131,17 +273,36 @@
 
       <!-- Experience -->
       <section class="skills section" id="experience">
-        <h2 class="section_title">Experience</h2>
-        <span class="section_subtitle">Skills & Certificate</span>
+        <h2
+          class="section_title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="120"
+        >
+          Experience
+        </h2>
+        <span
+          class="section_subtitle"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="120"
+          data-aos-delay="100"
+          >Skills & Certificate</span
+        >
 
-        <div class="skills_container container grid">
-          <div>
+        <div class="skills_container container">
+          <div class="skills_wrapper">
             <!-- skill 1 -->
-            <div class="skills_content skills_open">
+            <div
+              class="skills_content skills_open"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-offset="120"
+              data-aos-delay="100"
+            >
               <div class="skills_header">
                 <i class="fas fa-code skills_icon"></i>
-
-                <h1 class="skills_title">Fronted developer</h1>
+                <h1 class="skills_title">Frontend developer</h1>
 
                 <i class="fas fa-angle-down skills_arrow"></i>
               </div>
@@ -163,7 +324,13 @@
                 </div>
 
                 <div class="skills_data">
-                  <svg role="img" class="skill_icon" width="2.5rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg
+                    role="img"
+                    class="skill_icon"
+                    width="2.5rem"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <title>Tailwind CSS</title>
                     <path
                       d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
@@ -176,11 +343,22 @@
                   <i class="fab fa-react skill_icon"></i>
                   <h3 class="skills_name">ReactJS</h3>
                 </div>
+
+                <div class="skills_data">
+                  <i class="fab fa-vuejs skill_icon"></i>
+                  <h3 class="skills_name">Vue</h3>
+                </div>
               </div>
             </div>
 
             <!-- skill 2 -->
-            <div class="skills_content skills_open">
+            <div
+              class="skills_content skills_open"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-offset="120"
+              data-aos-delay="200"
+            >
               <div class="skills_header">
                 <i class="fas fa-server skills_icon"></i>
 
@@ -197,12 +375,41 @@
 
                 <div class="skills_data">
                   <i class="fab fa-laravel skill_icon"></i>
-                  <h3 class="skills_name"><strong>Basic</strong> Laravel</h3>
+                  <h3 class="skills_name">Laravel</h3>
                 </div>
 
                 <div class="skills_data">
                   <i class="fab fa-node-js skill_icon"></i>
-                  <h3 class="skills_name">NodeJS</h3>
+                  <h3 class="skills_name">NodeJS - (ExpressJS)</h3>
+                </div>
+
+                <div class="skills_data">
+                  <i class="fab fa-java skill_icon"></i>
+                  <h3 class="skills_name">Java - (SpringBoot)</h3>
+                </div>
+
+                <div class="skills_data">
+                  <svg
+                    viewBox="0 0 24 24"
+                    role="img"
+                    class="skill_icon"
+                    width="2.5rem"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <title>Apache Kafka icon</title>
+                      <path
+                        d="M16.262,13.293c-0.935,0-1.772,0.414-2.346,1.066l-1.47-1.041c0.156-0.43,0.246-0.891,0.246-1.374 c0-0.475-0.086-0.928-0.237-1.352l1.467-1.03c0.574,0.649,1.409,1.06,2.341,1.06c1.725,0,3.129-1.403,3.129-3.129 s-1.404-3.129-3.129-3.129s-3.129,1.403-3.129,3.129c0,0.309,0.047,0.607,0.13,0.889l-1.468,1.03 C11.183,8.653,10.3,8.121,9.294,7.959V6.19c1.417-0.298,2.485-1.557,2.485-3.061C11.779,1.403,10.375,0,8.65,0 S5.522,1.403,5.522,3.129c0,1.484,1.04,2.728,2.429,3.047v1.792c-1.895,0.333-3.341,1.987-3.341,3.976 c0,1.999,1.46,3.659,3.37,3.981v1.892c-1.403,0.308-2.457,1.56-2.457,3.054C5.522,22.597,6.925,24,8.65,24s3.129-1.403,3.129-3.129 c0-1.495-1.054-2.746-2.457-3.054v-1.892c0.966-0.163,1.84-0.671,2.46-1.431l1.48,1.048c-0.082,0.279-0.128,0.574-0.128,0.88 c0,1.725,1.404,3.129,3.129,3.129s3.129-1.403,3.129-3.129S17.987,13.293,16.262,13.293z M16.262,5.977 c0.837,0,1.517,0.681,1.517,1.517s-0.68,1.517-1.517,1.517c-0.836,0-1.517-0.681-1.517-1.517S15.426,5.977,16.262,5.977z M7.133,3.129c0-0.836,0.68-1.517,1.517-1.517s1.517,0.681,1.517,1.517S9.487,4.646,8.65,4.646S7.133,3.965,7.133,3.129z M10.167,20.871c0,0.836-0.68,1.517-1.517,1.517s-1.517-0.681-1.517-1.517s0.68-1.517,1.517-1.517S10.167,20.035,10.167,20.871z M8.65,14.06c-1.167,0-2.116-0.949-2.116-2.116c0-1.167,0.949-2.116,2.116-2.116c1.167,0,2.116,0.949,2.116,2.116 C10.766,13.111,9.817,14.06,8.65,14.06z M16.262,17.939c-0.837,0-1.517-0.681-1.517-1.517c0-0.836,0.68-1.517,1.517-1.517 s1.517,0.681,1.517,1.517C17.779,17.258,17.099,17.939,16.262,17.939z"
+                      ></path>
+                    </g>
+                  </svg>
+                  <h3 class="skills_name">Kafka</h3>
                 </div>
               </div>
             </div>
@@ -210,7 +417,13 @@
 
           <div>
             <!-- skill 3 -->
-            <div class="skills_content skills_open">
+            <div
+              class="skills_content3 skills_open"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              data-aos-offset="120"
+              data-aos-delay="100"
+            >
               <div class="skills_header">
                 <i class="fas fa-database skills_icon"></i>
 
@@ -221,7 +434,13 @@
 
               <div class="skills_list grid">
                 <div class="skills_data">
-                  <svg role="img" class="skill_icon" width="2.5rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg
+                    role="img"
+                    class="skill_icon"
+                    width="2.5rem"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <title>MySQL</title>
                     <path
                       d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"
@@ -229,48 +448,126 @@
                   </svg>
                   <h3 class="skills_name">MySQL</h3>
                 </div>
+
+                <div class="skills_data">
+                  <svg
+                    role="img"
+                    class="skill_icon"
+                    width="2.5rem"
+                    viewBox="0 0 48 48"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>PostgreSQL</title>
+                    <path
+                      d="M 35.199219 2.101563 C 33.699219 2.101563 32.398438 2.398438 31.199219 2.699219 C 33.300781 3.597656 34.601563 4.699219 35.300781 5.199219 C 36.902344 6.597656 37.800781 8 39.402344 10.300781 C 39.699219 10.800781 40.199219 11.5 40.5 12.597656 C 40.800781 13.597656 40.800781 14.398438 40.800781 15.199219 C 40.800781 16.300781 40.699219 17.199219 40.597656 18.097656 C 40.5 18.800781 40.5 19.101563 40.402344 19.300781 C 40.402344 19.402344 40.402344 19.5 40.300781 19.699219 C 40.300781 20.199219 40.300781 20.402344 40.402344 20.800781 C 40.402344 21.199219 40.5 21.601563 40.5 22.300781 C 40.601563 23.601563 40.601563 24.5 40.402344 25.597656 L 40.402344 26 C 40.199219 26.898438 40 27.800781 39.5 28.597656 C 39.601563 28.800781 39.699219 28.898438 39.800781 29.097656 C 40.300781 28.398438 40.699219 27.699219 41.097656 26.902344 C 42.300781 24.699219 43 22.800781 43.5 21.402344 C 44.398438 18.800781 44.898438 16.898438 45.199219 15.5 C 45.898438 12.5 46 11.101563 45.699219 9.5 C 45.699219 9 45.5 8.097656 45 7.199219 C 43.898438 5.199219 42.199219 4.300781 41 3.699219 C 40.199219 3.300781 38.097656 2.199219 35.199219 2.101563 Z M 13.535156 2.542969 C 12.382813 2.519531 10.976563 2.648438 9.398438 3.398438 C 8.898438 3.601563 7.398438 4.300781 6.199219 5.898438 C 5.398438 6.898438 4.800781 8.398438 4.5 10.097656 C 4.199219 11.597656 4.097656 13.402344 4.699219 16.800781 C 5.097656 19.199219 5.5 20.800781 6.300781 24.097656 C 6.402344 24.5 7 26.300781 8.300781 30.300781 L 8.398438 30.5 C 8.601563 31.199219 9.199219 32.699219 10.5 34.199219 C 11.398438 35.199219 12.199219 35.800781 12.902344 35.800781 L 13.097656 35.800781 C 14.398438 35.800781 15.300781 34.800781 16.097656 34 C 16.097656 33.898438 18 31.601563 18.699219 30.800781 C 18.597656 30.699219 18.402344 30.699219 18.300781 30.597656 C 17.101563 29.898438 16.199219 28.800781 15.5 27.597656 C 14.300781 25.398438 14.398438 23.199219 14.597656 22.097656 L 14.699219 20.402344 C 14.300781 17.699219 14.402344 15.101563 14.902344 12.5 C 15.300781 10.300781 15.800781 8.101563 17.597656 5.800781 C 18.199219 5 18.898438 4.300781 19.597656 3.800781 C 18 3.101563 16.300781 2.699219 14.597656 2.601563 C 14.273438 2.574219 13.917969 2.550781 13.535156 2.542969 Z M 26.097656 3.398438 C 25.597656 3.398438 25.097656 3.398438 24.597656 3.5 C 22.597656 3.898438 20.699219 5 19.199219 6.898438 C 17.699219 8.800781 17.300781 10.597656 16.902344 12.699219 C 16.699219 13.5 16.699219 14.199219 16.597656 15 C 17.199219 14.5 18 13.898438 19.199219 13.597656 C 19.898438 13.398438 21.699219 12.800781 23.199219 13.699219 C 23.699219 14 24.398438 14.601563 25.097656 16.300781 C 26.597656 20.5 25.101563 24.800781 24.902344 25.199219 C 24.800781 25.597656 24.601563 25.898438 24.5 26.097656 C 24.300781 26.597656 24.101563 27 23.902344 27.800781 C 23.800781 28.5 23.699219 29.101563 23.699219 29.800781 C 24 29.800781 24.300781 29.898438 24.597656 30.097656 C 25.097656 30.597656 25.199219 31.300781 25.300781 31.597656 C 25.5 33.199219 25.5 35.199219 25.5 37.199219 C 25.5 38.800781 25.5 40.300781 25.597656 41.300781 C 25.800781 43.601563 26.5 45.199219 27.5 46 C 28.199219 46.601563 29.097656 46.597656 29.597656 46.699219 L 29.800781 46.699219 C 31.300781 46.699219 33.699219 45.699219 34.597656 44.300781 C 35.097656 43.5 35.300781 42.800781 35.5 41.800781 C 35.601563 41.199219 35.597656 40.902344 35.699219 40.300781 C 35.699219 40 35.800781 39.5 35.800781 38.902344 C 35.800781 38.402344 35.898438 37.800781 36 37.097656 C 36.101563 35.398438 36.398438 33.402344 36.5 32.300781 C 36.601563 31 37.199219 29.898438 37.699219 29.199219 C 37 29.097656 36.300781 28.5 35.902344 27.5 C 35.300781 26.398438 35.199219 26.097656 35.097656 25.597656 C 35 25.199219 34.800781 24.699219 34.097656 23.199219 C 32.597656 19.800781 32.402344 18.800781 32.402344 18 C 32.300781 16.898438 32.199219 15.402344 33.402344 14.402344 C 35.199219 12.800781 37.5 12.902344 38.699219 13.300781 L 38.699219 13.097656 C 38.5 12.300781 38.101563 11.699219 37.800781 11.300781 C 36.300781 9 35.5 7.800781 34.097656 6.601563 C 33.5 6.101563 32 4.898438 29.800781 4.101563 C 28.800781 3.800781 27.597656 3.398438 26.097656 3.398438 Z M 37.152344 15.125 C 36.425781 15.074219 35.5 15.199219 34.699219 15.902344 C 34.300781 16.300781 34.300781 17.101563 34.402344 17.800781 C 34.402344 18.300781 34.5 19 36 22.402344 C 36.699219 24 36.898438 24.5 37 24.902344 C 37.101563 25.300781 37.199219 25.5 37.800781 26.597656 C 37.902344 26.800781 38 27 38.199219 27.199219 C 38.398438 26.898438 38.5 26.398438 38.597656 25.597656 L 38.699219 25.300781 C 38.898438 24.402344 38.800781 23.699219 38.800781 22.5 C 38.800781 21.898438 38.699219 21.5 38.699219 21.199219 C 38.597656 20.699219 38.597656 20.300781 38.597656 19.699219 C 38.398438 19.398438 38.398438 19.300781 38.5 19.097656 C 38.5 18.898438 38.597656 18.601563 38.699219 18 C 38.800781 17.199219 38.902344 16.5 38.902344 15.699219 C 38.699219 15.597656 38.601563 15.5 38.402344 15.402344 C 38.402344 15.402344 37.875 15.175781 37.152344 15.125 Z M 21.515625 15.519531 C 20.878906 15.445313 20.148438 15.652344 19.699219 15.800781 C 18.597656 16.101563 17.902344 16.800781 17.402344 17.199219 C 17.101563 17.5 16.800781 17.800781 16.5 18.199219 C 16.5 18.898438 16.597656 19.601563 16.699219 20.300781 L 16.699219 20.402344 L 16.5 22.402344 C 16.300781 23.300781 16.199219 25 17.199219 26.699219 C 17.699219 27.699219 18.402344 28.5 19.300781 29 C 19.902344 29.398438 20.699219 29.699219 21.597656 29.902344 C 21.597656 29.199219 21.699219 28.398438 21.800781 27.699219 C 22 26.699219 22.199219 26.199219 22.5 25.597656 C 22.601563 25.300781 22.699219 25.101563 22.902344 24.800781 C 23 24.5 24.398438 20.699219 23.097656 17.199219 C 22.800781 16.398438 22.5 15.898438 22.097656 15.699219 C 21.925781 15.597656 21.722656 15.542969 21.515625 15.519531 Z M 36.1875 16.089844 C 36.449219 16.074219 36.699219 16.097656 36.800781 16.199219 C 37.101563 16.398438 36.699219 16.898438 36.597656 17 C 36.5 17.101563 36.300781 17.300781 36 17.402344 C 35.601563 17.5 35.300781 17.199219 35.199219 17.199219 C 35.097656 17.097656 34.800781 16.800781 34.902344 16.5 C 35 16.300781 35.101563 16.300781 35.5 16.199219 C 35.648438 16.148438 35.925781 16.101563 36.1875 16.089844 Z M 21.15625 16.917969 C 21.492188 16.894531 21.773438 17.023438 22 17.097656 C 22.300781 17.199219 22.597656 17.300781 22.597656 17.5 C 22.699219 17.800781 22.402344 18 22.300781 18.097656 C 22 18.398438 21.5 18.402344 21.5 18.402344 C 21 18.402344 20.699219 18.101563 20.5 17.800781 C 20.398438 17.699219 20.300781 17.5 20.402344 17.300781 C 20.5 17.101563 20.699219 17 20.800781 17 C 20.925781 16.949219 21.042969 16.925781 21.15625 16.917969 Z M 39.5 30 C 39 30.699219 38.300781 31.601563 38.199219 32.800781 C 38.199219 33 38.199219 33.101563 38.097656 33.300781 C 38.898438 33.5 39.601563 33.5 40.300781 33.402344 C 41.902344 33.199219 43 32.398438 43.199219 32.199219 C 43.898438 31.699219 44.800781 30.699219 44.597656 30.300781 C 44.5 30.101563 44.199219 30.199219 42.597656 30.300781 C 42.199219 30.300781 41 30.601563 40.199219 30.402344 L 40 30.402344 C 39.800781 30.300781 39.601563 30.199219 39.5 30 Z M 22.097656 32 C 21.898438 32.300781 21.601563 32.5 21.402344 32.699219 C 20.601563 33.199219 19.597656 33.601563 18.597656 33.800781 C 17.699219 34.101563 17.199219 34.101563 17.199219 34.402344 C 17.097656 34.800781 18.097656 35.300781 18.597656 35.5 C 20.300781 36.199219 22 35.800781 22.300781 35.699219 C 22.5 35.597656 23 35.398438 23.5 35.097656 C 23.5 34 23.402344 33 23.300781 32.199219 L 23.300781 32.097656 L 23.199219 32.097656 C 22.898438 32.097656 22.5 32.101563 22.097656 32 Z"
+                    ></path>
+                  </svg>
+                  <h3 class="skills_name">PostgreSQL</h3>
+                </div>
+
+                <div class="skills_data">
+                  <svg
+                    class="skill_icon"
+                    width="2.5rem"
+                    viewBox="0 0 24 24"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <title>MongoDB icon</title>
+                      <path
+                        d="M17.18 9.518c-1.263-5.56-4.242-7.387-4.562-8.086C12.266.939 11.885 0 11.885 0c-.002.019-.004.031-.005.049v.013h-.001c-.002.015-.003.025-.004.039v.015h-.002c0 .01-.002.018-.002.026v.026h-.003c-.001.008-.001.018-.003.025v.021h-.002c0 .007 0 .015-.002.021v.02h-.002c0 .01-.001.022-.002.032v.002c-.003.017-.006.034-.009.05v.008h-.002c-.001.004-.003.008-.003.012v.017h-.003v.022h-.005v.018h-.005v.021h-.004v.019h-.004v.017h-.006v.014h-.004v.018h-.004v.014h-.005v.013H11.8v.015h-.004c-.001.001-.001.003-.001.004v.01h-.003c-.001.002-.001.004-.001.006v.006h-.002c-.001.003-.002.008-.002.01-.003.007-.007.014-.01.021v.002c-.002.002-.004.005-.005.007v.008h-.004v.008h-.005v.008h-.003v.01h-.006v.014h-.004v.004h-.004v.008h-.004v.011h-.004v.008h-.006v.011h-.004v.008h-.005v.008h-.003v.01h-.005v.008h-.004v.006h-.004v.008h-.006V.76h-.004v.006h-.005v.008h-.004v.011h-.005v.004h-.003v.008h-.006v.004h-.004v.01h-.004v.004h-.004v.008h-.005v.006h-.003l-.002.004v.004h-.002c-.001.002-.002.002-.002.004v.001h-.001c-.001.003-.002.005-.004.007v.003h-.001c-.005.006-.008.012-.012.018v.001c-.002.002-.007.006-.009.01v.002h-.001c-.001.001-.003.002-.003.003v.003h-.002l-.003.003v.001h-.001c0 .001-.002.002-.003.004v.004h-.003l-.002.002v.002h-.002c0 .002-.002.002-.002.003v.003h-.004c0 .001-.001.002-.002.003V.92h-.003v.004h-.004V.93h-.004v.008h-.005V.93h-.005v.004h-.004V.94h-.005v.008h-.005v.004h-.004v.006h-.004v.004h-.004V.97h-.006v.004h-.004V.98h-.005v.004h-.004v.005h-.005v.01h-.002v.004h-.006v.005h-.004v.002h-.004v.004h-.005v.01h-.004v.004h-.005v.004h-.004v.006h-.005v.004h-.005v.004h-.004v.004h-.004v.01h-.004v.005h-.006v.004h-.004v.004h-.005v.006h-.004v.004h-.005v.007h-.004v.004h-.006V1.1h-.002v.004h-.004v.004h-.005v.004h-.004v.006h-.005v.004h-.003c-.001.001-.001.002-.001.002v.002h-.002l-.004.004s-.002.002-.004.003v.006h-.004v.005h-.004v.004h-.004v.004h-.003l-.003.003v.003h-.002l-.002.002v.003h-.002c-.005.006-.007.01-.014.016-.002.002-.008.007-.012.01-.012.008-.027.021-.039.032-.008.005-.016.012-.022.017v.001h-.001c-.016.013-.031.025-.049.039v.001c-.024.02-.047.039-.074.062V1.34h-.002c-.057.047-.117.1-.186.159V1.5h-.001c-.169.148-.37.338-.595.568l-.015.015-.004.004C9 3.494 6.857 6.426 6.631 11.164c-.02.392-.016.773.006 1.144v.009c.109 1.867.695 3.461 1.428 4.756v.001c.292.516.607.985.926 1.405v.001c1.102 1.455 2.227 2.317 2.514 2.526.441 1.023.4 2.779.4 2.779l.644.215s-.131-1.701.053-2.522c.057-.257.192-.476.349-.662.106-.075.42-.301.797-.645.018-.019.028-.036.044-.054 1.521-1.418 4.362-4.91 3.388-10.599z"
+                      ></path>
+                    </g>
+                  </svg>
+                  <h3 class="skills_name">MongoDB</h3>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="sertifikat_container container">
+        <div
+          class="sertifikat_container container"
+          data-aos="zoom-out-up"
+          data-aos-duration="1000"
+          data-aos-offset="120"
+        >
           <div class="sertifikat_box">
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <div class="sertifikat_content swiper-slide">
-                  <a href="https://www.freecodecamp.org/certification/fcc10bbe462-2eeb-41ff-a5d0-d69f47a9baa5/responsive-web-design">
-                    <img src="assets/img/sertifikat1.png" alt="" />
+                  <a
+                    href="https://www.freecodecamp.org/certification/fcc10bbe462-2eeb-41ff-a5d0-d69f47a9baa5/responsive-web-design"
+                    target="_blank"
+                  >
+                    <img
+                      src="assets/img/sertifikat1.png"
+                      alt="sertifikat freecodecamp"
+                    />
                   </a>
                 </div>
                 <div class="sertifikat_content swiper-slide">
-                  <a href="https://www.freecodecamp.org/certification/fcc10bbe462-2eeb-41ff-a5d0-d69f47a9baa5/javascript-algorithms-and-data-structures">
-                    <img src="assets/img/sertifikat2.png" alt="" />
+                  <a
+                    href="https://www.freecodecamp.org/certification/fcc10bbe462-2eeb-41ff-a5d0-d69f47a9baa5/javascript-algorithms-and-data-structures"
+                    target="_blank"
+                  >
+                    <img
+                      src="assets/img/sertifikat2.png"
+                      alt="sertifikat freecodecamp"
+                    />
                   </a>
                 </div>
                 <div class="sertifikat_content swiper-slide">
-                  <a download="" href="assets/pdf/sertifikat3.pdf">
-                    <img src="assets/img/sertifikat3.png" alt="" />
+                  <a
+                    href="https://drive.google.com/file/d/1pgUGJxJeNjcRQ2Jc5rDYQVYir7iJ3oUC/view?usp=sharing"
+                    target="_blank"
+                  >
+                    <img src="assets/img/sertifikat3.png" alt="sertifikat" />
                   </a>
                 </div>
                 <div class="sertifikat_content swiper-slide">
-                  <a download="" href="assets/pdf/sertifikat4.pdf">
-                    <img src="assets/img/sertifikat4.png" alt="" />
+                  <a
+                    href="https://drive.google.com/file/d/11ns8jT54JqyjLs6ybJfoJEFOzUkS060a/view?usp=sharing"
+                    target="_blank"
+                  >
+                    <img src="assets/img/sertifikat4.png" alt="sertifikat" />
                   </a>
                 </div>
                 <div class="sertifikat_content swiper-slide">
-                  <a download="" href="assets/pdf/dicoding_backend_pemula.pdf">
-                    <img src="assets/img/dicoding_backend_pemula.png" alt="" />
+                  <a
+                    href="https://www.dicoding.com/certificates/1OP8LM0E1ZQK"
+                    target="_blank"
+                  >
+                    <img
+                      src="assets/img/dicoding_backend_pemula.png"
+                      alt="sertifikat dicoding"
+                    />
                   </a>
                 </div>
                 <div class="sertifikat_content swiper-slide">
-                  <a download="" href="assets/pdf/dicoding_frontend_pemula.pdf">
-                    <img src="assets/img/dicoding_frontend_pemula.png" alt="" />
+                  <a
+                    href="https://www.dicoding.com/certificates/KEXL3W404PG2"
+                    target="_blank"
+                  >
+                    <img
+                      src="assets/img/dicoding_frontend_pemula.png"
+                      alt="sertifikat dicoding"
+                    />
                   </a>
                 </div>
                 <div class="sertifikat_content swiper-slide">
-                  <a download="" href="assets/pdf/dicoding_reactjs.pdf">
-                    <img src="assets/img/dicoding_reactjs.png" alt="" />
+                  <a href="https://www.dicoding.com/certificates/NVP7K95MVZR0">
+                    <img
+                      src="assets/img/dicoding_reactjs.png"
+                      alt="sertifikat dicoding"
+                    />
                   </a>
                 </div>
               </div>
@@ -292,22 +589,74 @@
 
       <!-- Contact Me -->
       <section class="contact section" id="contact">
-        <h2 class="section_title">Contact Me</h2>
-        <span class="section_subtitle">Let's collaborate together</span>
+        <h2
+          class="section_title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="120"
+        >
+          Contact Me
+        </h2>
+        <span
+          class="section_subtitle"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="120"
+          data-aos-delay="100"
+          >Let's collaborate together</span
+        >
 
-        <div class="contact_container container grid">
+        <div class="contact_container container">
           <div>
             <div class="contact_information">
               <i class="uil uil-phone contact_icon"></i>
 
-              <div>
+              <div
+                data-aos="fade-down"
+                data-aos-duration="1100"
+                data-aos-offset="100"
+                data-aos-delay="200"
+              >
                 <h3 class="contact_title">Call Me</h3>
                 <div class="socials socials2">
-                  <a href="https://www.instagram.com/iwan_plamboyan" target="_blank"><i class="fab fa-instagram social-icon" data-color="#3f729b "></i></a>
-                  <a href="https://api.whatsapp.com/send?phone=62881023347500" target="_blank"><i class="fab fa-whatsapp social-icon" data-color="#25d366"></i></a>
-                  <a href="https://www.facebook.com/iwan.plamboyan.03" target="_blank"><i class="fab fa-facebook social-icon" data-color="#3b5998"></i></a>
-                  <a href="https://github.com/IwanPlamboyan" target="_blank"><i class="fab fa-github social-icon" data-color="#3A5896"></i></a>
-                  <a href="https://www.linkedin.com/in/iwan-plamboyan-9486b120a/" target="_blank"><i class="fab fa-linkedin social-icon" data-color="#0e76a8"></i></a>
+                  <a
+                    href="https://www.instagram.com/iwan_plamboyan"
+                    target="_blank"
+                    ><i
+                      class="fab fa-instagram social-icon"
+                      data-color="#3f729b "
+                    ></i
+                  ></a>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=6287812846752"
+                    target="_blank"
+                    ><i
+                      class="fab fa-whatsapp social-icon"
+                      data-color="#25d366"
+                    ></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/iwan.plamboyan.03"
+                    target="_blank"
+                    ><i
+                      class="fab fa-facebook social-icon"
+                      data-color="#3b5998"
+                    ></i
+                  ></a>
+                  <a href="https://github.com/IwanPlamboyan" target="_blank"
+                    ><i
+                      class="fab fa-github social-icon"
+                      data-color="#3A5896"
+                    ></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/iwan-plamboyan-9486b120a/"
+                    target="_blank"
+                    ><i
+                      class="fab fa-linkedin social-icon"
+                      data-color="#0e76a8"
+                    ></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -315,7 +664,12 @@
             <div class="contact_information">
               <i class="uil uil-envelope contact_icon"></i>
 
-              <div>
+              <div
+                data-aos="fade-down"
+                data-aos-duration="1100"
+                data-aos-offset="100"
+                data-aos-delay="200"
+              >
                 <h3 class="contact_title">Email</h3>
                 <span class="contact_subtitle">iwanplam03@gmail.com</span>
               </div>
@@ -324,38 +678,19 @@
             <div class="contact_information">
               <i class="uil uil-map-marker contact_icon"></i>
 
-              <div>
+              <div
+                data-aos="fade-down"
+                data-aos-duration="1100"
+                data-aos-offset="100"
+                data-aos-delay="200"
+              >
                 <h3 class="contact_title">Location</h3>
-                <span class="contact_subtitle">Bandung, Jawa Barat - Indonesia</span>
+                <span class="contact_subtitle"
+                  >Bandung, Jawa Barat - Indonesia</span
+                >
               </div>
             </div>
           </div>
-
-          <form class="contact_from grid" name="my-portfolio">
-            <div class="alert d-none">
-              <p><b>Terima Kasih!</b> Pesan anda sudah kami terima.</p>
-              <i class="fas fa-times alert_close"></i>
-            </div>
-            <div class="contact_inputs grid">
-              <div class="contact_content">
-                <label for="nama" class="contact_label">Name</label>
-                <input type="text" class="contact_input" name="nama" id="nama" />
-              </div>
-              <div class="contact_content">
-                <label for="email" class="contact_label">Email</label>
-                <input type="email" class="contact_input" name="email" id="email" />
-              </div>
-            </div>
-            <div class="contact_content">
-              <label for="pesan" class="contact_label">Message</label>
-              <textarea name="pesan" id="pesan" cols="0" rows="7" class="contact_input"></textarea>
-            </div>
-
-            <div>
-              <button type="submit" class="button button-flex btn-kirim"><i class="far fa-paper-plane"></i>&nbsp;Kirim</button>
-              <button class="button button-flex btn-loading d-none"><i class="fas fa-spinner"></i>&nbsp;Loading</button>
-            </div>
-          </form>
         </div>
       </section>
     </main>
@@ -363,7 +698,9 @@
     <!-- footer -->
     <footer class="footer">
       <div class="footer_bg">
-        <p class="footer_copy">&#169; Copyright 2021 | built by Iwan Plamboyan</p>
+        <p class="footer_copy">
+          &#169; Copyright 2021 | built by Iwan Plamboyan
+        </p>
       </div>
     </footer>
 
@@ -374,6 +711,9 @@
 
     <!-- Swiper js -->
     <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <!-- MyScript -->
     <script src="assets/js/main.js"></script>

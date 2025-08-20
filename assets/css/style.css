@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
   --header-height: 5rem;
@@ -24,7 +24,7 @@
   --elipse2-color: #e4e4e4;
 
   /* font and typography */
-  --body-font: 'Poppins', sans-serif;
+  --body-font: "Poppins", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --h1-font-size: 1.5rem;
@@ -415,17 +415,9 @@ img {
   color: var(--title-color);
 }
 
-.home_buttons {
-  display: flex;
-  justify-content: center;
-}
-
 /* Projects */
-section.projects {
-  padding: 0 4rem;
-}
-
 .projects_container {
+  padding: 0 2rem;
   max-width: 1000px;
   margin: auto;
   display: flex;
@@ -435,41 +427,63 @@ section.projects {
 }
 
 .project_link {
-  max-width: 100%;
-  background-color: var(--input-color);
-  color: var(--text-color);
-  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 12px;
   overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  background: var(--input-color);
+  color: var(--text-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project_link:hover {
-  transition: 0.1s;
-  box-shadow: 0 0 5px 0px rgba(137, 43, 226, 0.4);
-  transform: translateY(1px);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.project_image {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.project_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: transform 0.6s ease;
+}
+
+.project_link:hover .project_image img {
+  transform: scale(1.05);
 }
 
 .project_link h3 {
-  margin: 0 0 10px;
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .project_description {
-  padding: 20px 10px 30px;
+  padding: 16px;
+}
+
+.project_description p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 /* Skills */
-.skills_container {
-  row-gap: 0;
-}
-
 .skills_header {
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-1-5);
   cursor: pointer;
-}
-
-.skills_arrow {
-  font-size: 1.3rem;
 }
 
 .skills_icon {
@@ -489,6 +503,7 @@ section.projects {
 }
 
 .skills_arrow {
+  font-size: 1.3rem;
   margin-left: auto;
   transition: 0.4s;
 }
@@ -509,20 +524,15 @@ section.projects {
   fill: currentColor !important;
 }
 
-.mysql {
-  width: 40px;
+.skill_icon_svg {
+  background: url("../img/postgresql.svg") no-repeat center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-size: contain;
 }
 
 .skills_name {
   font-size: 1.2rem;
-}
-
-.skills_name strong {
-  padding: 0 5px;
-  font-size: 1.35rem;
-  color: #333;
-  border-radius: 3px;
-  background-color: rgb(211, 211, 22);
 }
 
 .skills_close .skills_list {
@@ -589,7 +599,7 @@ section.projects {
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
-  content: '';
+  content: "";
 }
 
 .swiper-sertifikat-icon {
@@ -630,18 +640,21 @@ section.projects {
 
 /* Contact Me */
 .contact_container {
-  row-gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact_information {
   display: flex;
-  margin-bottom: var(--mb-2);
+  text-align: center;
+  margin-bottom: var(--mb-1);
+  justify-content: center;
 }
 
 .contact_icon {
   font-size: 2rem;
   color: var(--first-color);
-  margin-right: var(--mb-0-75);
 }
 
 .contact_title {
@@ -780,7 +793,21 @@ section.projects {
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
-  .skills_container,
+  .skills_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .skills_content {
+    width: 100%;
+  }
+
+  .skills_content3 {
+    max-width: 50%;
+  }
+
   .contact_container,
   .footer_container {
     grid-template-columns: repeat(2, 1fr);
@@ -797,10 +824,6 @@ section.projects {
   }
   .bar {
     margin-left: -245px;
-  }
-
-  section.projects {
-    margin-top: 50px;
   }
 
   .sertifikat_box {
@@ -863,10 +886,10 @@ section.projects {
   }
 
   .home_container {
-    padding-left: 20px;
-    column-gap: 4.5rem;
+    column-gap: 8rem;
     grid-template-columns: 1fr 2fr;
     margin-top: var(--mb-2);
+    place-items: center;
   }
   .home_img,
   .rectangle,
@@ -899,9 +922,6 @@ section.projects {
     justify-content: initial;
   }
 
-  section.projects {
-    padding: 0 2rem;
-  }
   .project_link {
     max-width: 47.5%;
   }
@@ -917,10 +937,6 @@ section.projects {
 
   .home_container {
     padding-left: 0;
-  }
-
-  section.projects {
-    margin-top: 95px;
   }
 
   .contact_form {
